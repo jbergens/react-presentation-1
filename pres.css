@@ -1,0 +1,54 @@
+/* Lite uppsnyggning av presentationen */
+.separated-part, .separated {
+	margin-top: 1em !important;
+}
+
+.reveal pre code {
+    font-size: 1.5em;
+    line-height: 0.9em;
+}
+
+.reveal button {
+    width: 100px;
+    height: 25px;
+}
+
+.reveal h2.imp1, .reveal h3.imp1 {
+    color: aquamarine;
+    padding: 50px 0;
+}
+
+.reveal .img-text {
+	font-size:0.3em;
+	color: #547EDF;
+}
+
+.reveal .img-text a:link, .reveal .img-text a:visited {
+	color: #547EDF;
+}
+
+table.grid {
+    border-collapse: collapse;
+}
+
+table.grid, table.grid th, table.grid td {
+    border: 1px solid #fff;
+}
+
+table.grid tr td, table.grid tr th {
+    padding: 4px;
+}
+
+.reveal .slides section .fragment.single.visible {
+	/*visibility: hidden;*/
+	opacity: 0;
+}
+
+.reveal .slides section .fragment.single.first.visible {
+	opacity: 1;
+}
+
+.reveal .slides section .fragment.single.visible.current-fragment {
+	/*visibility: visible;*/
+	opacity: 1;
+}
